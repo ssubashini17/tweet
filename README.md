@@ -21,7 +21,11 @@ Or install it yourself as:
 
    require 'tweet'
 
+   # By default returns words from 1000 tweets  
    Tweet.word_freq( screen_name )
+
+   # Returns words from maximum of 3200 tweets 
+   Tweet.word_freq( screen_name, {:count => 2000} )
 
 ## Contributing
 
