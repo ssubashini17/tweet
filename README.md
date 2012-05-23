@@ -5,17 +5,13 @@ This Ruby Gem uses the Twitter API to get the words in the 1000 recent tweets an
 
 ## Installation
 
-Add this line to your application's Gemfile:
+install gem from pkg/ as:
 
-    gem 'tweet'
+    $ gem install tweet-0.0.1
 
-And then execute:
+uninstall gem :
 
-    $ bundle
-
-Or install it yourself as:
-
-    $ gem install tweet
+    $ gem uninstall tweet
 
 ## Usage
 
