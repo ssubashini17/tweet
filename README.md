@@ -1,4 +1,6 @@
-# Tweet Ruby Gem uses the Twitter API to get the words in the 1000 recent tweets and returns them in the descending order of frequency
+# Tweet 
+
+This Ruby Gem uses the Twitter API to get the words in the 1000 recent tweets and returns them in the descending order of frequency
 
 
 ## Installation
