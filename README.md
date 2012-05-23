@@ -21,7 +21,7 @@ Or install it yourself as:
 
    require 'tweet'
 
-   Tweet.word_freq("screen_name")
+   Tweet.word_freq( screen_name )
 
 ## Contributing
 
