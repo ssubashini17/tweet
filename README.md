@@ -25,6 +25,7 @@ Or install it yourself as:
    Tweet.word_freq( screen_name )
 
    # Returns words from maximum of 3200 tweets
+
    Tweet.word_freq( screen_name, {:count => 2000} )
 
 ## Contributing
