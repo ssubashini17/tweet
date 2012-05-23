@@ -18,9 +18,11 @@ uninstall gem :
     $ require 'tweet'
 
     # By default returns words from 1000 tweets  
+    # screen_name refers to a twitter user's screen name
     $ Tweet.word_freq( screen_name )
 
     # Returns words from maximum of 3200 tweets
+    # :count represents the number of tweets to be processed 
     $ Tweet.word_freq( screen_name, {:count => 2000} )
 
 ## Contributing
