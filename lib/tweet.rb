@@ -13,7 +13,7 @@ module Tweet
 
     def word_freq(user,options={})
        freq = Hash.new(0)
-       options.merge!( { :count => 1000 } ) unless (options.has_key? :count || options[:count] <= 1000 )
+       options.merge!( { :count => 1000 } ) unless (options.has_key? :count && options[:count] <= 1000 )
        statuses = Twitter.user_timeline(user, options)
        statuses.each {|status| status.text.scan(/\w+/){|w| freq[w] += 1}}
        freq.keys.sort{|x,y| -(freq[x] <=> freq[y])}
